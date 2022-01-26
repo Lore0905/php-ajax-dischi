@@ -1,6 +1,6 @@
 Vue.config.devtools = true;
 
-var app5 = new Vue({
+const app = new Vue({
     el: '#root',
     data: {
       discoCharacteristics: [],
