@@ -6,7 +6,29 @@
 }
 
 /* COMMONS */
-
+.container{
+    margin: auto;
+    height: 100%;
+    width: 70%;
+}
+body{
+    background-color: #1e2d3b;
+}
+img{
+    max-width: 100%;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* color */
+/* $brand_primary_color: #2e3a46;
+$brand_secondary_color: #1e2d3b;
+$white-color-text: white;
+$grey-color-text: #6c6b66; */
 
 /* HEADER */
 
@@ -23,5 +45,33 @@ header img{
 /* END HEADER */
 
 /* MAIN */
+
+#main-section .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+/* single disco */
+.container-wrap-disco{
+    width: calc(100% / 5) ;
+    max-width: 200px;
+    min-width: 175px;
+    height: 350px;
+    background-color: #2e3a46;
+    padding: 20px;
+    margin: 10px 20px;
+}
+.title-disco{
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.author-disco, .year-disco{
+    text-align: center;
+    color: #6c6b66;
+}
+/* end single disco */
 
 /* END MAIN */
