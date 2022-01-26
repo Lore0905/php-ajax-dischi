@@ -1,0 +1,27 @@
+/* RESET */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* COMMONS */
+
+
+/* HEADER */
+
+header{
+    background-color: grey;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+header img{
+    width: 60px;
+}
+
+/* END HEADER */
+
+/* MAIN */
+
+/* END MAIN */
